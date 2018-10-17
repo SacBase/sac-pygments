@@ -1,7 +1,7 @@
 Pygments SaC Lexer
 ------------------
 
-This repo provides a Python Pygments plugin to add syntax highlighting for the [1](Single-Assignment C) programming language.
+This repo provides a Python Pygments plugin to add syntax highlighting for the [Single-Assignment C][1] programming language.
 
 Our lexer extends the Pygments builtin `CLexer` for the C-language.
 
@@ -16,4 +16,7 @@ the repository directory do:
 $ python setup.py install --user
 ```
 
+You can also call this directly from Pygments, see [in their documentation][2].
+
 [1]: https://www.sac-home.org/
+[2]: http://pygments.org/docs/lexerdevelopment/#adding-and-testing-a-new-lexer
